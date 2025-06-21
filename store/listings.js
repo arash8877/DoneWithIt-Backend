@@ -1,8 +1,21 @@
 const listings = [
   {
+    id: 3,
+    title: "Egg Chair designed by Arne Jacobsen",
+    description: "Jeg sælger min ægget-stol designet af Arne Jacobsen. Den er i rigtig flot stand.",
+    images: [{ fileName: "chair1" }],
+    categoryId: 1,
+    price: 5200,
+    userId: 2,
+    location: {
+      latitude: 37.78825,
+      longitude: -122.4324,
+    },
+  },
+  {
     id: 201,
-    title: "Red jacket",
-    images: [{ fileName: "jacket1" }],
+    title: "Leather Bag",
+    images: [{ fileName: "bag2" }],
     price: 100,
     categoryId: 5,
     userId: 1,
@@ -12,27 +25,11 @@ const listings = [
     },
   },
   {
-    id: 3,
-    title: "Gray couch in a great condition",
-    images: [{ fileName: "couch2" }],
-    categoryId: 1,
-    price: 1200,
-    userId: 2,
-    location: {
-      latitude: 37.78825,
-      longitude: -122.4324,
-    },
-  },
-  {
     id: 1,
-    title: "Room & Board couch (great condition) - delivery included",
+    title: "PH lamp",
     description:
-      "I'm selling my furniture at a discount price. Pick up at Venice. DM me asap.",
-    images: [
-      { fileName: "couch1" },
-      { fileName: "couch2" },
-      { fileName: "couch3" },
-    ],
+      "I'm selling my 3 PH lamps. They are in great condition and have been well taken care of.",
+    images: [{ fileName: "lamp1" }],
     price: 1000,
     categoryId: 1,
     userId: 1,
@@ -42,17 +39,18 @@ const listings = [
     },
   },
   {
-    id: 2,
-    title: "Designer wear shoes",
-    images: [{ fileName: "shoes1" }],
+    id: 6,
+    title: "Nike sneakers",
+    images: [{ fileName: "shoes3" }],
     categoryId: 5,
-    price: 100,
+    price: 50,
     userId: 2,
     location: {
       latitude: 37.78825,
       longitude: -122.4324,
     },
   },
+
   {
     id: 102,
     title: "Canon 400D (Great Condition)",
@@ -91,11 +89,11 @@ const listings = [
     },
   },
   {
-    id: 6,
-    title: "Brown leather shoes",
-    images: [{ fileName: "shoes2" }],
+    id: 2,
+    title: "Designer wear shoes",
+    images: [{ fileName: "shoes1" }],
     categoryId: 5,
-    price: 50,
+    price: 100,
     userId: 2,
     location: {
       latitude: 37.78825,
